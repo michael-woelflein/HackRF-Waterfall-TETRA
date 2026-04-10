@@ -14,12 +14,20 @@ Writes each new line into a 480x320 framebuffer display, with a 400 px waterfall
 The sidebar shows current settings and status, including LNA, VGA, AMP, threshold, decay, and FPS. The main loop in sdr_waterfallv1.py (line 305) also supports live keyboard control:
 
 a / s: decrease / increase LNA
+
 y / x: decrease / increase VGA
+
 d: toggle amp
+
 q / w: lower / raise detection threshold
+
 e / r: lower / raise persistence decay
+
 f / g: lower / raise target FPS
+
 c: clear the waterfall and reset noise tracking
+
 Esc: quit
+
 
 # HackRF-Waterfall-TETRA
